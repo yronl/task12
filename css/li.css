@@ -1,0 +1,81 @@
+@charset "UTF-8";
+.sel-lis li{
+    padding:30px;
+    font-size: 30px;
+    border-bottom: 1px solid red;
+}
+.sel-lis p{
+    padding-bottom:15px;
+
+}
+.sel-lis .pp2{
+    padding-left: 40px;
+}
+.sel-lis .pp1{
+    color:#999;
+}
+.sel-lis .pp1 img{
+    width: 38px;
+    height: 38px;
+    vertical-align: -2px;
+    margin-right: 10px;
+}
+.sel-lis .pp3{
+    color:#999;
+}
+.sel-lis .pp3 img{
+    width: 30px;
+    height: 38px;
+    vertical-align: -2px;
+    margin-right: 10px;
+}
+.sel-lis .pp2{
+    color: #333;
+}
+.pp2 span{
+    float: right;
+    color: red;
+}
+.pp2 span img{
+    width: 23px;
+    height: 38px;
+    vertical-align: -4px;
+    margin-left: 10px;
+}
+<!--<ul class="sel-lis">-->
+<!--<li>-->
+<!--<p class="pp1"><img src="images/task6-time.png" alt="">服务日期</p>-->
+<!--<p class="pp2">2015-7-5至2015-7-12 <span>25元/小时 <img src="images/task6-right.png" alt=""></span></p>-->
+<!--<p class="pp3"><img src="images/task6-wz.png" alt="">北京。通州。果园</p>-->
+<!--</li>-->
+<!--<li>-->
+<!--<p class="pp1"><img src="images/task6-time.png" alt="">服务日期</p>-->
+<!--<p class="pp2">2015-7-5至2015-7-12 <span>25元/小时 <img src="images/task6-right.png" alt=""></span></p>-->
+<!--<p class="pp3"><img src="images/task6-wz.png" alt="">北京。通州。果园</p>-->
+<!--</li>-->
+<!--<li>-->
+<!--<p class="pp1"><img src="images/task6-time.png" alt="">服务日期</p>-->
+<!--<p class="pp2">2015-7-5至2015-7-12 <span>25元/小时 <img src="images/task6-right.png" alt=""></span></p>-->
+<!--<p class="pp3"><img src="images/task6-wz.png" alt="">北京。通州。果园</p>-->
+<!--</li>-->
+<!--<li>-->
+<!--<p class="pp1"><img src="images/task6-time.png" alt="">服务日期</p>-->
+<!--<p class="pp2">2015-7-5至2015-7-12 <span>25元/小时 <img src="images/task6-right.png" alt=""></span></p>-->
+<!--<p class="pp3"><img src="images/task6-wz.png" alt="">北京。通州。果园</p>-->
+<!--</li>-->
+<!--<li>-->
+<!--<p class="pp1"><img src="images/task6-time.png" alt="">服务日期</p>-->
+<!--<p class="pp2">2015-7-5至2015-7-12 <span>25元/小时 <img src="images/task6-right.png" alt=""></span></p>-->
+<!--<p class="pp3"><img src="images/task6-wz.png" alt="">北京。通州。果园</p>-->
+<!--</li>-->
+<!--<li>-->
+<!--<p class="pp1"><img src="images/task6-time.png" alt="">服务日期</p>-->
+<!--<p class="pp2">2015-7-5至2015-7-12 <span>25元/小时 <img src="images/task6-right.png" alt=""></span></p>-->
+<!--<p class="pp3"><img src="images/task6-wz.png" alt="">北京。通州。果园</p>-->
+<!--</li>-->
+<!--<li>-->
+<!--<p class="pp1"><img src="images/task6-time.png" alt="">服务日期</p>-->
+<!--<p class="pp2">2015-7-5至2015-7-12 <span>25元/小时 <img src="images/task6-right.png" alt=""></span></p>-->
+<!--<p class="pp3"><img src="images/task6-wz.png" alt="">北京。通州。果园</p>-->
+<!--</li>-->
+<!--</ul>-->

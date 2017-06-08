@@ -1,0 +1,388 @@
+@charset "UTF-8";
+html,body{
+  margin:0;
+  padding:0;
+  height:100%;
+}
+body{
+  font-size:14px;
+}
+a{background: transparent; text-decoration: none; -webkit-tap-highlight-color: transparent;color: #000;}
+a:active{background: transparent}
+a:hover{ text-decoration:none; color:#333}
+p{
+  margin:0;
+  padding:0;
+  font-weight: normal;
+}
+em,i{
+  font-style:normal;
+}
+ul,li{list-style: none;margin: 0;padding: 0}
+h1,h2,h4,h5,h6,h3{margin: 0;font-weight: normal}
+html{font-size:16px}
+header{
+  display: block;
+}
+a{background: transparent; text-decoration: none; -webkit-tap-highlight-color: transparent;
+  padding:0;
+  margin:0;}
+
+@mixin textCenter($height){
+  height:$height;
+  line-height: $height;
+  text-align: center;
+}
+$bgc:#5fc0cd;
+$m30:30px;
+$t-bai:#fff;
+$fs:2.5em;
+.float{
+  float: left;
+}
+.task12-head img{
+  display: inline-block;
+  @extend .float;
+  padding-top: 7px;
+
+}
+.task12-head{
+  padding:$m30;
+  //@include textCenter(88px);
+  font-size:$fs;
+  background-color: $bgc;
+  text-align: center;
+  h3{
+    color: $t-bai;
+  }
+
+}
+.banner{
+   position: relative;
+}
+.banner .img-bg{
+  //background:url("../images/task5-bj.jpg")no-repeat;
+  //-webkit-background-size:;
+  //background-size:100% 100%;
+  width: 100%;
+}
+.banner span{
+  position: absolute;
+  top:25%;
+  left:5%;
+  display: inline-block;
+  width: 25%;
+  padding-bottom: 25%;
+  border-radius: 50%;
+  background:url("../images/task5-tx.png")no-repeat;
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%;
+}
+.banner .p1{
+  position: absolute;
+  top:32%;
+  left: 32%;
+  font-size:$fs;
+  color: $t-bai;
+}
+.banner .p2{
+  @extend .p1;
+  top:45%;
+}
+.banner .p2 img{
+  width: 26px;
+  height: 30px;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+$bb:1px solid #e1e5e7;
+.ability h4{
+  margin: $m30;
+  padding-left: $m30;
+  border-left:5px solid $bgc;
+  font-size:$fs
+}
+.ability-lis{
+  margin:0 $m30
+}
+$t-gery:#e1e5e7;
+.ability-lis li{
+ padding:$m30;
+  font-size: $fs;
+  border-bottom: $bb;
+  color:#b6b6b6;
+  vertical-align: middle;
+}
+.ability-lis li img{
+  width: 27px;
+  height: 27px;
+  padding:0 10px;
+}
+
+.ability-lis li em{
+  color:$t-gery;
+  padding:0 10px;
+}
+.ability-lis span{
+  color: #333;
+}
+
+.ability-lis li .jieshao{
+  width: 75%;
+ display: inline-block;
+ vertical-align: middle;
+}
+.button{
+  margin:$m30;
+  position: fixed;
+  bottom:0;
+  left:0;
+  width: 95%;
+}
+.btn{
+  width: 47%;
+  padding:$m30;
+  font-size: $fs;
+  color: $bgc;
+  border-radius: 5%;
+  background-color: #fff;
+  border:1px solid $bgc;
+}
+.button .button1{
+  @extend .btn;
+  margin-right: 4%;
+}
+.button .button2{
+  @extend .btn;
+  background-color:$bgc;
+  border:1px solid $bgc;
+  color:#fff;
+}
+.task12-1-head{
+  @extend .task12-head;
+  padding: 10px;
+ position: relative;
+
+}
+.task12-1-head .select{
+  width: 40%;
+  margin: 0 auto;
+  background-color: #55a8b3;
+  border-radius: 15px;
+}
+.btn1{
+  font-size: 1em;
+  padding: 20px;;
+  width: 50%;
+  border:none;
+  background-color: #55a8b3;
+  color: #ffffff;
+  border-radius: 15px;
+  outline: none;
+}
+.task12-1-head .select .button3{
+  @extend .btn1;
+}
+.task12-1-head .select .button4{
+  @extend .btn1;
+  background-color: #fff;
+  color:$bgc;
+}
+.task12-1-head img{
+  width: 50px;
+  height: 50px;;
+  position: absolute;
+  right:$m30;
+  top: 20px;
+}
+$t-9:#999;
+.sel{
+  width: 100%;
+   .sel-box{
+    width: 33.3%;
+    float: left;
+     border-bottom: $bb;
+  }
+  select{
+    width: 100%;
+    font-size:$fs;
+    padding: 10px 15%;
+    -webkit-appearance: none;
+    background:url("../images/xiala.png")no-repeat 80% 50%;
+    border-right:$bb;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    color:$t-9;
+  }
+  select option{
+
+    font-size: 14px;
+  }
+}
+.sel-lis li{
+  padding:30px;
+  font-size: 26px;
+  border-bottom:$bb;
+}
+.sel-lis p{
+  padding-bottom:15px;
+
+}
+.sel-lis .pp2{
+  padding-left: 40px;
+}
+.sel-lis .pp1{
+  color:#999;
+  img{
+    width: 38px;
+    height: 38px;
+    vertical-align: -2px;
+    margin-right: 10px;
+  }
+}
+.sel-lis .pp3{
+ @extend .pp1;
+  img{
+    width: 30px;
+    height: 38px;
+    vertical-align: -2px;
+    margin-right: 10px;
+  }
+}
+
+.sel-lis .pp2{
+ color: #333;
+  span{
+    float: right;
+    color: red;
+  }
+  img{
+    width: 23px;
+    height: 38px;
+    vertical-align: -6px;
+    margin-left: 10px;
+  }
+}
+.task12-foot{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8fafb;
+  padding:10px 0;
+  border-top: $bb;
+  z-index: 2;
+}
+.task12-foot div{
+  width: 50%;
+  float: left;
+  font-size: $fs;
+  display: table;
+}
+.task12-foot a{
+  display:table-cell ;
+  text-align: center;
+}
+.task12-foot b{
+  display: inline-block;
+  width:46px;
+  height: 40px;;
+  background:url("../images/task6-home.png")no-repeat;
+  background-size: 100% 100%;
+}
+.task12-foot .nav b{
+  display: inline-block;
+  width:46px;
+  height: 40px;;
+  background:url("../images/task6-peo.png")no-repeat;
+  background-size: 100% 100%;
+
+}
+.task12-foot span{
+   display: block;
+  color: $bgc;
+}
+.task12-foot .nav span{
+  display: block;
+
+  color: $t-9;
+}
+.task12-foot img{
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: -50px;
+}
+
+.fu-lis {
+  padding:30px;
+  font-size: 32px;
+  color: $t-9;
+  border-bottom: $bb;
+  img{
+      height: 38px;
+      width: 38px;
+      margin-right: 10px;
+      vertical-align: -2px;
+  }
+  p{
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  span{
+    float: right;
+    color: red;
+    img{
+      margin-left: 30px;
+    }
+  }
+}
+.task6-content{
+  font-size:2rem;
+  border-bottom: $bb;
+}
+
+
+.margin30{
+ padding:$m30;
+  color:$t-9;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.fr{
+  float: right;
+}
+
+.task6-content .time-adr{
+  color:#999999;
+  margin-bottom: 10px;
+  img{
+    width: 38px;
+    height: 38px;
+    vertical-align: -4px;
+    margin-right: 10px;
+  }
+}
+.paddingleft40{
+  padding-left: 40px;
+  color: #333;
+}
+.task6-content .right-img{
+  height:36px;
+  width:18px;
+  margin-left: 10px;
+  vertical-align:middle;
+  display: inline-block;
+}
+.task6-content span{
+  font-size:2rem;
+  color: #e63b0e;
+}
+.task6-content .wz-img{
+  height:11px;
+  width: 9px;
+  margin-right:5px ;
+}
